@@ -13,7 +13,17 @@
 -  Programación Web
 -  Desarrollo Móvil
 
-## 💡 Recomendación
+## 🌐Tecnologias que conozco
+-  HTML
+-  Python
+-  Java
+-  SQL \ Base de Datos
+
+## 📩 Cómo contactarme
+-  Correo: yenavarrobe@ittepic.edu.mx  
+-  Telefono: 3324127929
+  
+## 💡 Pelicula / serie recomendada
 -  The Watcher
 
 --INSERT--
