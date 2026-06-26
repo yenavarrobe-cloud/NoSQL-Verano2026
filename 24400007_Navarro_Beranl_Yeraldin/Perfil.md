@@ -1,3 +1,5 @@
+<img src="https://avatars.githubusercontent.com/u/245119901?v=4" width="150" alt="Foto de perfil de Yeraldin Navarro Bernal" />
+
 # 👋 Hola, soy Yeraldin Navarro Bernal
 
 ## 🎓 Información general
