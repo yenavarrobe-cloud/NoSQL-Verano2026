@@ -1,9 +1,9 @@
 const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
-const cors = require("cors")
-const app = express();
+const cors = require("cors");
 
+const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
@@ -76,10 +76,9 @@ app.get("/peliculas/:id", async (req, res) => {
         });
     }
 });
-app.get("/",(req, res) => {
-    res.send("SERVIDOR DE NETFLIX");
-});
 //
+
+app.get("/",(req,res)=>{res.send("Servidor funcionando de API de Netflix");});
 app.listen(PORT,() => {  
 console.log("Servidor iniciado en http://localhost:"+PORT);
 });
