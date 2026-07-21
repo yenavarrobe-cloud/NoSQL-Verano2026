@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 const PORT = 3000;
 
-mongoose.connect("mongodb://127.0.0.1:27017/netflix")
+mongoose.connect("mongodb+srv://grupo:grupo@servidorprueba.ygegryf.mongodb.net/netflix")
 .then(() => {
     console.log("Conectado correctamente a MongoDB");
 })
@@ -75,6 +75,9 @@ app.get("/peliculas/:id", async (req, res) => {
             error: error
         });
     }
+});
+app.get("/",(req, res) => {
+    res.send("SERVIDOR DE NETFLIX");
 });
 //
 app.listen(PORT,() => {  
