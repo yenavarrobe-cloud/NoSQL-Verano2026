@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00c6fb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > *{
+    width: 100%;
+}
+
+form{
+    margin-top: 20px;
+}
+
+body{
+    padding: 40px;
+}
+
+.contenedor{
+    background: white;
+    width: 700px;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
+
+h1{
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+h2{
+    color: #023e8a;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+input:focus{
+    outline: none;
+    border-color: #00b4d8;
+    box-shadow: 0 0 10px rgba(0,180,216,.35);
+}
+
+button{
+    background: #0096c7;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 10px;
+}
+
+button:hover{
+    background: #023e8a;
+    transform: translateY(-2px);
+}
+
+#btnConsultar{
+    background: #38b000;
+}
+
+#btnConsultar:hover{
+    background: #2b9348;
+}
+
+hr{
+    margin: 30px 0;
+    border: none;
+    border-top: 2px solid #ddd;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+li{
+    background: #f8fbff;
+    border-left: 6px solid #0096c7;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: .3s;
+    box-shadow: 0 3px 8px rgba(0,0,0,.08);
+}
+
+li:hover{
+    transform: translateX(8px);
+    background: #e9f7ff;
+}
+
+@media(max-width:768px){
+
+    .contenedor{
+        width: 95%;
+        padding: 25px;
+    }
+
+    button{
+        width: 100%;
+    }
+
+}
